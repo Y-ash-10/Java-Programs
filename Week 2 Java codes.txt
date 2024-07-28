@@ -1,0 +1,148 @@
+public class Main { 
+    public static void main(String[] args) { 
+        boolean n = true; 
+        boolean m = false; 
+        System.out.println(n); 
+        System.out.println(m); 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 10; 
+        int y = 9; 
+        System.out.println(x > y); 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 10; 
+        int y = 9; 
+        System.out.println(x == y); 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 10; 
+        int y = 9; 
+        if (x > y) { 
+            System.out.println("x is greater than y"); 
+        } else { 
+            System.out.println("x is lesser than y"); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 10; 
+        if (x > 8) { 
+            System.out.println("good morning"); 
+        } else { 
+            System.out.println("good night"); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 8; 
+        if (x > 8) { 
+            System.out.println("good morning"); 
+        } else if (x == 8) { 
+            System.out.println("good day"); 
+        } else { 
+            System.out.println("good night"); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 4; 
+        switch (x) { 
+            case 1: 
+                System.out.println("Monday"); 
+                break; 
+            case 2: 
+                System.out.println("Tuesday"); 
+                break; 
+            case 3: 
+                System.out.println("Wednesday"); 
+                break; 
+            case 4: 
+                System.out.println("Thursday"); 
+                break; 
+            case 5: 
+                System.out.println("Friday"); 
+                break; 
+            case 6: 
+                System.out.println("Saturday"); 
+                break; 
+            case 7: 
+                System.out.println("Sunday"); 
+                break; 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 0; 
+        while (x < 5) { 
+            System.out.println(x); 
+            x = x + 1; 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        int x = 0; 
+        do { 
+            System.out.println(x); 
+            x = x + 1; 
+        } while (x < 5); 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        for (int x = 0; x < 5; x++) { 
+            System.out.println(x); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        String[] car = {"BMW", "Benz", "Audi", "Mazda"}; 
+        for (String i : car) { 
+            System.out.println(i); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        for (int i = 0; i < 10; i++) { 
+            if (i == 4) { 
+                break; 
+            } 
+            System.out.println(i); 
+        } 
+    }     
+} 
+
+public class Main { 
+    public static void main(String[] args) { 
+        for (int i = 0; i < 10; i++) { 
+            if (i == 4) { 
+                continue; 
+            } 
+            System.out.println(i); 
+        } 
+    }     
+}
