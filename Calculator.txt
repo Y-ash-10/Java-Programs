@@ -1,0 +1,49 @@
+import java.util.Scanner;
+public class Calculator{
+    public static void main(String[] args){
+      float x,y;
+      boolean ans;
+      int ch;
+      Scanner myObj=new Scanner(System.in);
+      System.out.println("Enter a number");
+      x=myObj.nextFloat();
+      System.out.println("Enter a number");
+      y=myObj.nextFloat();
+      ans=true;
+      while (ans==true){
+          System.out.println("Choose among the following 1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Exponents");
+          ch=myObj.nextInt();
+          switch (ch) {
+              case 1:
+                  System.out.println(x+y);
+                  break;
+              case 2:
+                  System.out.println(Math.abs(x-y));
+                  break;
+              case 3:
+                  System.out.println(x*y);
+                  break;
+              case 4:
+                  System.out.println(x/y);
+                  break;
+              case 5:
+                  System.out.println(Math.pow(x,y));
+                  break;
+          }
+          System.out.println("If you wish to do another operation enter 1, else enter 0");
+          int ans1=myObj.nextInt();
+          if (ans1==1){
+              ans=true;
+          } else if (ans1==0) {
+              ans=false;
+          }
+          else{
+              System.out.println("Invalid Input");
+          }
+
+      }
+
+
+
+    }
+}
